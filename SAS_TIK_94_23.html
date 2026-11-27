@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SAS TIK Sava 94-23</title>
+        <link rel="stylesheet" href="SAS_TIK_94_23.css">
+    </head>
+
+    <header>
+        <img src="Header.png" alt="Foto Header" width="1263px" height="300px">
+    </header>
+
+    <body>
+         <ul class="topnav">
+            <li>
+                <a href="#home">
+                    <img src="1.png" alt="beranda" class="beranda" width="125px" height="40px">
+                </a>
+            </li>
+
+            <li class="dropdown">
+                <a href="SDGs1.html" class="dropbtn">
+                    <img src="2.png" width="125px" height="40px" alt="">
+                </a>
+
+                <div class="dropdown-content">
+                    <a href="SDGs1.html#permasalahan">
+                        <img src="Permasalahan (2).png" alt="permasalahan" width="200px">
+                    </a>
+
+                    <a href="SDGs1.html#keterkaitan">
+                        <img src="keterkaitan.png" alt="Keterkaitan dengan Kerjasama">
+                    </a>
+
+                    <a href="SDGs1.html#pancasila">
+                        <img src="pancasila (2).png" alt="Hubungan dengan Pancasila">
+                    </a>
+                </div>
+            </li>
+                
+            <li class="dropdown">
+                <a href="ips.html" class="dropbtn">
+                    <img src="3.png" width="125px" height="40px" alt="">
+                </a>
+                <div class="dropdown-content">
+                    <a href="ips.html#pembangunan">
+                        <img src="pembangunan konvensional.png" alt="permasalahan" width="200px">
+                    </a>
+
+                    <a href="SDGs.html">
+                        <img src="sdgslabel.png" alt="Keterkaitan dengan Kerjasama">
+                    </a>
+
+                    <a href="Poster.html">
+                        <img src="poster.png" alt="Keterkaitan dengan Kerjasama">
+                    </a>
+                </div>
+            </li>
+            
+            <li>
+                <a href="tentangsaya.html">
+                    <img src="4.png" alt="tentang kami" width="125px" height="40px">
+                </a>
+            </li>
+            
+            <li>
+                <a href="#Daftar Pustaka">
+                    <img src="5.png" alt="daftar pustaka" width="125px" height="40px">
+                </a>
+            </li>
+        </ul>
+
+
+        <div class="biodata">     
+            <div class="foto">
+                <img src="no poverty.png" alt="No Poverty" class="top">
+                <img src="tanpa kemiskinan.jpg" alt="Tanpa Kemiskinan" class="bottom">
+            </div>   
+        
+            <div class="content">
+                <div class="isi">
+                    <h2>Apa Itu SDGs?</h2>
+                    <p>
+                        SDGs adalah program inisiasi oleh Perserikatan Bangsa Bangsa (PBB) pada tahun 2015 yang tercipta untuk mengatasi tantangan dan permasalahan global. SDGs (<em>Sustainable Development Goals</em>) disebut juga sebagai tujuan pembangunan berkelanjutan. Program ini bertujuan untuk mendorong perubahan berdasarkan prinsip hak asasi manusia serta memastikan kesetaraan dalam pembangunan sosial, ekonomi, dan lingkungan. SDGs/TPB diberlakukan dengan adanya prinsip universal, integrasi dan inklusif untuk meyakinkan bahwa tidak akan ada seorang pun yang terlewatkan (<em>No-One Left Behind</em>)
+                    </p>
+                </div>
+            </div>
+        </div>  
+
+        
+<section id="daftar-sdgs">
+
+    <div class="floating">
+        <img src="17tujuan.png" alt="17 Tujuan SDGS">
+        <h2 class="klik">Klik Gambar untuk Melihat Lebih Detail</h2>
+    </div>
+
+    <!-- 17 GAMBAR SDGs -->
+     <div class="biodata">
+    <div class="sdgs-grid">
+
+        <img src="no poverty.png" alt="SDGs 1" onclick="bukaSDGS(1)">
+        <img src="zerohunger.png" alt="SDGs 2" onclick="bukaSDGS(2)">
+        <img src="good healt.png" alt="SDGs 3" onclick="bukaSDGS(3)">
+        <img src="quality education.png" alt="SDGs 4" onclick="bukaSDGS(4)">
+        <img src="gender.png" alt="SDGs 5" onclick="bukaSDGS(5)">
+        <img src="clean water.png" alt="SDGs 6" onclick="bukaSDGS(6)">
+        <img src="cleanenergy.png" alt="SDGs 7" onclick="bukaSDGS(7)">
+        <img src="decenteconomic.png" alt="SDGs 8" onclick="bukaSDGS(8)">
+        <img src="industry.png" alt="SDGs 9" onclick="bukaSDGS(9)">
+        <img src="reducedinequalities.png" alt="SDGs 10" onclick="bukaSDGS(10)">
+        <img src="sustainablecities.png" alt="SDGs 11" onclick="bukaSDGS(11)">
+        <img src="responsible.png" alt="SDGs 12" onclick="bukaSDGS(12)">
+        <img src="climateaction.png" alt="SDGs 13" onclick="bukaSDGS(13)">
+        <img src="lifebelowwater.png" alt="SDGs 14" onclick="bukaSDGS(14)">
+        <img src="lifeonland.png" alt="SDGs 15" onclick="bukaSDGS(15)">
+        <img src="peace.png" alt="SDGs 16" onclick="bukaSDGS(16)">
+        <img src="partnership.png" alt="SDGs 17" onclick="bukaSDGS(17)">
+
+    </div>
+    </div>
+
+</section>
+
+
+<!-- POP-UP -->
+<div class="modal" id="modal">
+
+    <div class="modal-content">
+
+        <button class="close" onclick="tutupSDGS()">×</button>
+
+
+        <h2 id="judul"></h2>
+
+        <p id="deskripsi"></p>
+
+        <button class="tombol-tutup" onclick="tutupSDGS()">
+            Tutup
+        </button>
+
+    </div>
+
+</div>
+
+
+
+
+        <div class="floating">
+                <img src="jenis kerjasama.png" alt="Jenis Kerjasama">
+            </div>
+    <div class="biodata-container">         
+        <div class="biodata">      
+            <div class="content">
+                <div class="isi">
+                    <h2>Kerja sama Bilateral</h2>
+                    <p>Kerja sama bilateral adalah kerja sama yang dilakukan oleh dua negara untuk mencapai tujuan bersama. Kerja sama ini dapat dilakukan dalam bidang ekonomi, pendidikan, politik, dan budaya. Tujuannya adalah saling membantu dan menguntungkan kedua negara. Contohnya adalah kerja sama antara Indonesia dan Jepang. </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="biodata">     
+            <div class="content">
+                <div class="isi">
+                    <h2>Kerja Sama Regional</h2>
+                    <p>Kerja sama regional adalah kerja sama yang dilakukan oleh beberapa negara dalam satu kawasan atau wilayah tertentu. Kerja sama ini bertujuan untuk meningkatkan hubungan antarnegara di kawasan tersebut. Selain itu, kerja sama ini juga dilakukan untuk menyelesaikan masalah bersama. Contohnya adalah kerja sama negara-negara ASEAN.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="biodata">
+            <div class="content">
+                <div class="isi">
+                    <h2>Kerja Sama Multilateral</h2>
+                    <p>Kerja sama multilateral adalah kerja sama yang dilakukan oleh tiga negara atau lebih. Kerja sama ini bertujuan untuk mencapai kepentingan dan tujuan bersama. Biasanya, kerja sama ini membahas masalah yang melibatkan banyak negara. Contohnya adalah kerja sama melalui organisasi Perserikatan Bangsa-Bangsa (PBB).
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="biodata">
+            <div class="content">
+                <div class="isi">
+                <h2>Kerja Sama Internasional</h2>
+                    <p>Kerja sama internasional adalah kerja sama yang dilakukan oleh negara-negara di seluruh dunia. Kerja sama ini mencakup berbagai bidang, seperti ekonomi, pendidikan, kesehatan, dan lingkungan. Tujuannya adalah memenuhi kebutuhan bersama dan menciptakan hubungan yang baik antarnegara. Contohnya adalah kerja sama antarnegara dalam menjaga perdamaian dunia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</section>
+
+<footer>
+    <img src="footeer.png" alt="Footer SDGs" >
+</footer>
+
+<script>
+
+const dataSDGS = {
+
+    1: {
+        judul: "SDGs 1 - Tanpa Kemiskinan",
+        deskripsi: "Mengakhiri kemiskinan dalam segala bentuk di mana pun."
+    },
+
+    2: {
+        judul: "SDGs 2 - Tanpa Kelaparan",
+        deskripsi: "Mengakhiri kelaparan, mencapai ketahanan pangan, memperbaiki nutrisi, dan mendukung pertanian berkelanjutan."
+    },
+
+    3: {
+        judul: "SDGs 3 - Kehidupan Sehat dan Sejahtera",
+        deskripsi: "Menjamin kehidupan yang sehat dan meningkatkan kesejahteraan bagi semua orang di segala usia."
+    },
+
+    4: {
+        judul: "SDGs 4 - Pendidikan Berkualitas",
+        deskripsi: "Menjamin pendidikan yang inklusif, adil, dan berkualitas serta mendukung kesempatan belajar sepanjang hayat."
+    },
+
+    5: {
+        judul: "SDGs 5 - Kesetaraan Gender",
+        deskripsi: "Mencapai kesetaraan gender dan memberdayakan semua perempuan dan anak perempuan."
+    },
+
+    6: {
+        judul: "SDGs 6 - Air Bersih dan Sanitasi Layak",
+        deskripsi: "Menjamin ketersediaan serta pengelolaan air bersih dan sanitasi yang berkelanjutan bagi semua orang."
+    },
+
+    7: {
+        judul: "SDGs 7 - Energi Bersih dan Terjangkau",
+        deskripsi: "Menjamin akses energi yang terjangkau, andal, berkelanjutan, dan modern bagi semua orang."
+    },
+
+    8: {
+        judul: "SDGs 8 - Pekerjaan Layak dan Pertumbuhan Ekonomi",
+        deskripsi: "Mendorong pertumbuhan ekonomi yang inklusif dan berkelanjutan serta pekerjaan yang layak bagi semua orang."
+    },
+
+    9: {
+        judul: "SDGs 9 - Industri, Inovasi, dan Infrastruktur",
+        deskripsi: "Membangun infrastruktur yang tangguh, mendorong industrialisasi inklusif, dan mengembangkan inovasi."
+    },
+
+    10: {
+        judul: "SDGs 10 - Berkurangnya Kesenjangan",
+        deskripsi: "Mengurangi kesenjangan di dalam dan antarnegara."
+    },
+
+    11: {
+        judul: "SDGs 11 - Kota dan Permukiman Berkelanjutan",
+        deskripsi: "Menjadikan kota dan permukiman inklusif, aman, tangguh, dan berkelanjutan."
+    },
+
+    12: {
+        judul: "SDGs 12 - Konsumsi dan Produksi yang Bertanggung Jawab",
+        deskripsi: "Menjamin pola konsumsi dan produksi yang berkelanjutan."
+    },
+
+    13: {
+        judul: "SDGs 13 - Penanganan Perubahan Iklim",
+        deskripsi: "Mengambil tindakan segera untuk mengatasi perubahan iklim dan dampaknya."
+    },
+
+    14: {
+        judul: "SDGs 14 - Ekosistem Lautan",
+        deskripsi: "Melestarikan dan memanfaatkan sumber daya laut secara berkelanjutan."
+    },
+
+    15: {
+        judul: "SDGs 15 - Ekosistem Daratan",
+        deskripsi: "Melindungi, memulihkan, dan mendukung pemanfaatan ekosistem daratan secara berkelanjutan."
+    },
+
+    16: {
+        judul: "SDGs 16 - Perdamaian, Keadilan, dan Kelembagaan yang Tangguh",
+        deskripsi: "Mendorong masyarakat yang damai dan inklusif, menyediakan akses keadilan, serta membangun lembaga yang efektif."
+    },
+
+    17: {
+        judul: "SDGs 17 - Kemitraan untuk Mencapai Tujuan",
+        deskripsi: "Memperkuat sarana pelaksanaan dan merevitalisasi kemitraan global untuk pembangunan berkelanjutan."
+    }
+
+};
+
+
+function bukaSDGS(nomor) {
+
+    document.getElementById("judul").innerText =
+        dataSDGS[nomor].judul;
+
+    document.getElementById("deskripsi").innerText =
+        dataSDGS[nomor].deskripsi;
+
+    document.getElementById("modal").style.display = "flex";
+
+}
+
+
+function tutupSDGS() {
+
+    document.getElementById("modal").style.display = "none";
+
+}
+
+
+// Klik area luar pop-up untuk menutup
+document.getElementById("modal").addEventListener("click", function(event) {
+
+    if (event.target === this) {
+        tutupSDGS();
+    }
+
+});
+
+
+// Tombol ESC untuk menutup
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "Escape") {
+        tutupSDGS();
+    }
+
+});
+
+</script>
+    </body>
+
+    
+
+</html>
